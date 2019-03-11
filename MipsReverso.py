@@ -29,7 +29,7 @@ if len(argumentos) == 4:
         # remove $s e vírgula do segundo argumento
         rs = argumentos[2].replace('$s', '').replace(',', '')
         # remove $s e vírgula do terceiro argumento
-        rt = argumentos[3].replace('$s', '').replace(',', '')
+        rt = argumentos[3].replace('$', '').replace(',', '')
 
         print(op, rd, rs, rt)
 
